@@ -443,7 +443,7 @@ var TrayIcons = class TrayIcons extends PanelExtension {
     )
 
     Main.panel.addToStatusArea(
-      'uniteTrayIndicator', this.indicators, 0, 'right'
+      'uniteTrayIndicator', this.indicators, 0, 'center'
     )
 
     this.tray.manage_screen(Main.panel)
